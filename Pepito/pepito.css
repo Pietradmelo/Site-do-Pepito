@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(file:///C:/Users/adrye/Documents/pepito%20e%20seus%20likes.jpg);
+    color: #333;
+}
+header {
+    width: 2000px;
+    margin-top: 0px;
+    background-color: #4CAF50;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+}
+header h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+header img {
+    height: 40px;
+    width: 40px;
+}
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    margin-top: 80px;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section div {
+    margin-bottom: 150px;
+    margin: 50px 0px 100px 0px;
+}
+section div img {
+    margin-left: 10px;
+    height: 250px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #333;
+}
+section button {
+    height: 50px;
+    width: 150px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+    background-color: #2f7431;
+    margin: 20px auto 20px auto;
+    display: block;
+}
+button#cima {
+    float: right;
+    margin-top: -75px;
+    margin-right: 40px;
+}
+h1, h2, h3 {
+    color: #4CAF50;
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+}
+.images img {
+    max-width: 250px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #333;
+}
+video {
+    width: 190px;
+    height: 290px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px #333;
+    width: fit-content;
+    margin-left: 27px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
